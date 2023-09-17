@@ -1,12 +1,12 @@
 variable "cluster_name" {
   type        = string
-  description = "Name of the aKS cluster"
+  description = "Name of the EKS cluster"
   default     = "gitops"
 }
 
 variable "cluster_version" {
   type        = string
-  description = " aks cluster version"
+  description = "AWS aks cluster version"
   default     = "1.26.6"
 }
 variable "enable_argocd_helm_release" {
